@@ -29,7 +29,7 @@ class Cat:Animal
 
 class  Program
 {
-   static void Main(string[] args)
+    static void Main(string[] args)
     {
         Animal parentAnimal = new Animal();
         Dog childdog = new Dog();
@@ -41,5 +41,5 @@ class  Program
 
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
-    } 
-}   
+    }
+}
